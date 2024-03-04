@@ -1,0 +1,29 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+#backgraund{
+    display: inline;
+    font-size: 4rem;
+    
+}
+#button{
+    display: inline;
+    position: absolute;
+    margin-top: 150px;
+    margin-right: 10px;
+    width: 100px;
+    height: 50px;
+   
+}
+#body{
+    background-color: #26e684
+
+}

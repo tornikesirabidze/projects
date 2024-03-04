@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lato:ital,wght@0,700;1,400&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: 0px;
+    font-family: 'Inter', sans-serif;
+}
+body{
+    background-color: hsl(233, 47%, 7%);
+}
+main{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    
+}
+
+.div2{
+    display: inline-block;
+    position: relative;
+    margin-left: 30px;
+    margin-bottom: 3px;
+    background-color: hsl(244, 38%, 16%);
+    height: 378px;
+    width: 500px;
+    padding-top: 4px;
+    border-radius: 5px 0px 0px 5px;
+}
+.div1{
+    display: inline-block;
+    height: 379px;
+    width: 500px;
+    background-color: hsl(277, 64%, 61%);
+}
+.img1{
+    display: inline-block;
+    height: 379px;
+    width: 500px;
+    position: relative;
+    border-radius: 0px 5px 5px 0px;
+}
+h2{
+    display: inline-block;
+    text-align: center;
+    padding-top: 60px;
+    padding-left: 30px;
+    padding-right: 120px;
+    font-size: 32px;
+    color: hsl(0, 0%, 100%);
+}
+p{
+    display: inline-block;
+    line-height: 20px;
+    font-size: 12px;
+    padding-left: 50px;
+    padding-top: 20px;
+    padding-right: 150px;
+    color:  hsla(0, 0%, 100%, 0.6)
+    
+}
+.first{
+    
+    position: relative;
+    top: 70px;
+    left:50px;
+    color:aliceblue
+}
+.second{
+    position: relative;
+    left: 170px;
+    top: 48px;
+    color: aliceblue;
+    
+}
+.third{
+    position: relative;
+    left: 290px;
+    top: 25px;
+    color: aliceblue;
+}
+.footer1{
+    display: inline-block;
+    position: relative;
+    padding-top: 30px;
+}
+.footer2{
+    display: inline-block;
+    position: relative;
+    padding-left: 170px;
+    bottom: 40px;
+}
+
+.footer3{
+    display: inline-block;
+    position: relative;
+    left: 240px;
+    bottom: 80px;
+}
+span{
+    color: hsl(277, 64%, 61%);
+}

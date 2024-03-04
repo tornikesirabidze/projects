@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="shooping.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="shooping">
+        <div class="shoopingdiv">
+            <h3>shooping card</h3>
+            <button id="empty">EmPty Card</button>
+        </div>
+            <ul class="mainul">
+                <li>Image</li>
+                <li>Name</li>
+                <li>Price</li>
+                <li>Qty</li>
+                <li>Actions</li>
+            </ul>
+            <hr>
+        <div id="shoopingdiv2">
+            <div id="divwatch">
+                <ul id="watchul">
+                    <li><img style="width: 50px;height: 50px;" src="images.jpg" alt=""></li>
+                    <li><p>watch</p></li>
+                    <li><span>200</span>$</li>
+                    <li><span id="watchprice">0</span></li>
+                    <li><button id="watchdel">delete</button></li>
+                </ul>
+                <hr>
+            </div>
+            <div id="divcanon">
+                <ul id="canonul">
+                    <li><img style="width: 50px;height: 50px;" src="download.jpg" alt=""></li>
+                    <li><p>watch</p></li>
+                    <li><span >700$</span></li>
+                    <li><span id="cenonprice">0</span></li>
+                    <li><button id="canondel">delete</button></li>
+                </ul>
+                <hr>
+            </div>
+            <div id="divphone">
+                <ul id="phoneul">
+                    <li><img style="width: 50px;height: 50px;" src="d.png".jpg alt=""></li>
+                    <li><p>watch</p></li>
+                    <li><span >400$</span></li>
+                    <li><span id="phoneprice">0</span></li>
+                    <li><button id="phonedel">delete</button></li>
+                </ul>
+                <hr>
+            </div>
+            <div>
+                <div><p>total pice <span id="total">0</span>$</p></div>
+            </div>
+        </div>
+        
+    </div>
+    <div class="Products">
+        <div class="Productsdiv">
+            <h3 class="head">Products</h3>
+            <div class="watchdiv">
+                <div class="watch"><img src="images.jpg" alt=""><p>watch 200$</p><button id="watchbtn">add to card</button></div>
+                <div class="canon"><img src="download.jpg" alt=""><p>canon 700$</p><button id="canonbtn">add to card</button></div>
+                <div class="phone"><img style="width: 80px;height: 80px;" src="d.png" alt=""> <p>apple 400$</p><button id="phonebtn">add to card</button></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="shooping.js"></script>
+</body>
+</html>

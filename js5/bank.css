@@ -1,0 +1,83 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+form{
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    height: 100vh;
+    background-color: rgb(241, 241, 244);
+    width: 400px;
+    height: 350px;
+    border-style:solid 1px;
+    box-shadow: 1px 1px px 5px  rgb(241, 241, 244);
+}
+input{ 
+    width: 180px;
+    height: 30px;
+    
+}
+#submit{
+    margin-top: 20px;
+    margin-right: 120px;
+    width: 180px;
+    height: 30px;
+    
+}
+main{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+}
+.button{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 80px;
+    width: 500px;
+    height: 350px;
+    gap: 15px;
+    border: 3px solid rgb(184, 184, 245);
+    border-radius: 5%;
+
+}
+button{
+    text-align: center;
+    width: 250px;
+    height: 30px;
+    border-radius: 8px;
+    border-style: none;
+    margin-left: 120px;
+    cursor: pointer;
+    background-color: rgb(149, 149, 245);
+    color: white;
+    
+}
+.paragr{
+    position: absolute;
+    margin-top: -50px;
+    margin-left: 150px;
+
+
+}
+#EXIT{
+    margin-right: 200px;
+}
+button:hover{
+    background-color: black;
+    color: white;
+}
+#Login{
+    margin-top: 20px;
+    margin-right: 120px;
+    width: 180px;
+    height: 30px;
+
+}
