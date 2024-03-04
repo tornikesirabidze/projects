@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&family=Lexend+Deca&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Kumbh+Sans:wght@400;700&family=Lexend+Deca&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 15px;
+    color:hsl(0, 0%, 95%);
+}
+main{
+    display: flex;
+    width: 1000px;
+    height: 550px;
+    border-radius: 10px;
+    overflow: hidden;
+    
+}
+.sedan{
+    width: 33.3%;
+    height: 100%;
+    background-color: hsl(31, 77%, 52%);
+}
+.suv{
+    width: 33.3%;
+    height: 100%;
+    background-color: hsl(184, 100%, 22%);
+
+}
+.luxury{
+    width: 33.3%;
+    height: 100%;
+    background-color: hsl(179, 100%, 13%);
+
+}
+div{
+    padding: 50px;
+}
+h1{
+    padding-top: 30px;
+    font-family: 'Big Shoulders Display', sans-serif;
+    font-size: 3rem;
+}
+p{
+    padding-top: 30px;
+    line-height: 25px;
+}
+button{
+    margin-top: 115px;
+    font-size: 1rem;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+.pirveli{
+    border: none;
+    outline: none;
+    width: 150px;
+    height: 50px;
+    border-radius: 50px;
+    color: hsl(31, 77%, 52%);
+    transition: 0.5s;
+    cursor: pointer;
+}
+.meore{
+    border: none;
+    outline: none;
+    width: 150px;
+    height: 50px;
+    border-radius: 50px;
+    color: hsl(184, 100%, 22%);
+    transition: 0.5s;
+    cursor: pointer;
+
+}
+.mesame{
+    border: none;
+    outline: none;
+    width: 150px;
+    height: 50px;
+    border-radius: 50px;
+    color: hsl(179, 100%, 13%);
+    transition: 0.5s;
+    cursor: pointer;
+}
+.pirveli:hover{
+    background-color: rgba(255, 0, 0, 0);
+    color: hsl(0, 0%, 95%);
+    border: 3px solid hsl(0, 0%, 95%);
+}
+.meore:hover{
+    background-color: rgba(255, 0, 0, 0);
+    color: hsl(0, 0%, 95%);
+    border: 3px solid hsl(0, 0%, 95%);
+}
+.mesame:hover{
+    background-color: rgba(255, 0, 0, 0);
+    color: hsl(0, 0%, 95%);
+    border: 3px solid hsl(0, 0%, 95%);
+}

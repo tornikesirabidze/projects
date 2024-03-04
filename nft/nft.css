@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Lato' ,sans-serif;
+
+}
+body{
+    background-color: hsl(217, 54%, 11%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+main{
+    background-color:hsl(216, 50%, 16%) ;
+    width: 300px;
+    height: 550px; 
+    border-radius: 10px;
+    
+}
+img{
+    margin-top: 20px;
+    margin-left: 20px;
+    border-radius: 5px;
+    display: inline-block;
+    width: 260px;
+    height: 260px;
+    cursor: pointer;
+}
+h3{ 
+    display: block;
+    padding: 15px;
+    color: hsla(0, 0%, 98%, 0.781);
+}
+p{
+    display: block;
+    color: hsl(215, 51%, 70%);
+    padding: 15px;
+    padding-top: 5px;
+}
+.p2{
+    position: relative;
+    right: 12px;
+    display: inline-block;
+    color: hsl(178, 100%, 50%);
+
+}
+
+.p3{
+    position: relative;
+    right: 12px;
+    display: inline-block;
+}
+.p4{
+    position: relative;
+    display: inline-block;
+    color: aliceblue;
+    bottom: 15px;
+
+}
+span{
+    color:hsl(215, 51%, 70%)
+}
+hr{
+    border-color: hsl(215, 51%, 70%);
+    margin: 15px;
+}
+.avatar{
+    display: inline;
+    width: 30px;
+    height: 30px;
+    border-style: solid;
+    border-color: aliceblue;
+    border-radius: 50%;
+    border-width: 0.5px;
+}
+.img2{
+    display: inline-block;
+    width: 12px;
+    height: 20px;
+}
+.img3{
+    display: inline-block;
+    width: 17px;
+    height: 17px;
+}

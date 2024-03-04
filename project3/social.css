@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Karla:wght@400;700&family=Kumbh+Sans:wght@400;700&family=League+Spartan:wght@400;500;700&family=Lexend+Deca&family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'League Spartan', sans-serif; 
+    
+}
+body{
+    
+
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh
+
+}
+h1{
+    font-size: 3rem;
+}
+
+.first, .second, .third{
+    display: flex;
+    position: relative;
+    background-color: hsl(300, 24%, 96%);
+    width: 380px;
+    height: 45px;
+    padding-left:  20px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    color: hsl(300, 43%, 22%);
+    font-weight: 700;
+
+}
+
+.first{
+    position: relative;
+    bottom: 160px;
+    right: 20px;
+    
+}
+
+.second{
+    position: relative;
+    bottom: 145px;
+    left: 20px;
+    
+}
+
+.third{
+    position: relative;
+    bottom: 130px;
+    left: 60px;
+}
+
+.first p {
+    text-align: center;
+    position: relative;
+    padding-left: 135px;
+    bottom: 15px;
+
+    
+}
+
+.second p{
+    text-align: center;
+    position: relative;
+    padding-left: 25px;
+    top: 15px;
+
+}
+
+.third p{
+    text-align: center;
+    position: relative;
+    padding-left: 135px;
+    bottom: 15px;
+}
+
+.first1 img{
+    position: relative;
+    padding-top: 12px;
+    padding-left: 2px;
+    
+}
+
+.second1 img{
+    position: relative;
+    padding-top: 12px;
+    padding-left: 2px;
+}
+
+.third1 img{
+    position: relative;
+    padding-top: 12px;
+    padding-left: 2px;
+}
+
+.product{
+    position: relative;
+    margin-bottom: 300px;
+    margin-right: 160px;
+    color:hsl(300, 43%, 22%) ;
+    
+}
+.product p{
+    margin-top: 25px;
+    line-height: 20px;
+    color:  hsl(303, 10%, 53%);
+    font-weight: 500;
+}
+
+.Calton, .irene, .anne{
+    background-color:hsl(300, 43%, 22%) ;
+    border-radius: 7px;
+    width: 310px;
+    height: 205px;
+    padding-left: 25px;
+    
+}
+.Calton{
+    position: absolute;
+    margin-top: -200px;
+    right: 155px ;
+}
+.Calton1{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    margin-left: 70px;
+    margin-top: -45px;
+    line-height: 20px;
+    font-weight: 500;
+    color: hsl(0, 0%, 100%);
+    
+   
+}
+
+.Calton img{
+    margin-top: 30px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+.Calton :nth-child(3) {
+    margin-top: 20px;
+    line-height: 20px;
+    color: hsl(300, 24%, 96%);
+    font-size: 0.9rem;
+    padding-left: 5px;
+}
+.irene{
+    position: absolute;
+    top: -180px;
+    margin-left: -125px;
+}
+.irene1{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    margin-left: 70px;
+    margin-top: -45px;
+    font-weight: 500;
+    line-height: 20px;
+    color: hsl(0, 0%, 100%);
+   
+}
+
+.irene img{
+    margin-top: 30px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+.irene :nth-child(3) {
+    margin-top: 20px;
+    line-height: 20px;
+    color: hsl(300, 24%, 96%);
+    font-size: 0.9rem;
+    padding-left: 5px;
+}
+.anne{
+    position: absolute;
+    margin-left: 215px;
+    margin-top: -160px;
+}
+
+.anne1{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    margin-left: 70px;
+    margin-top: -45px;
+    font-weight: 500;
+    line-height: 20px;
+    color: hsl(0, 0%, 100%);
+   
+}
+
+.anne img{
+    margin-top: 30px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+.anne :nth-child(3) {
+    margin-top: 20px;
+    line-height: 20px;
+    color: hsl(300, 24%, 96%);
+    font-size: 0.9rem;
+    padding-left: 5px;
+}
+
+footer{
+
+    position: absolute;
+    display: flex;
+    margin-top: 450px;
+    
+}
+aside{
+    display: flex;
+    flex-direction: column;
+
+}

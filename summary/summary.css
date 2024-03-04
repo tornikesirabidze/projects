@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Kumbh+Sans:wght@400;700&family=Lexend+Deca&family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+body{
+    background-image: url(pattern-background-desktop.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: bottom 360px left 1px; 
+    background-color: hsl(225, 100%, 94%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+main{
+    width: 400px;
+    height: 630px;
+    background-color: white;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.paragap{
+    margin-top: 20px;
+    padding-left: 46px;
+    padding-right: 45px;
+    font-size: 15px;
+    line-height: 20px;
+    color:  hsl(224, 23%, 55%);
+}
+.dance{
+    width: 400px;
+    height: 200px;
+}
+.first{
+
+}
+.second{
+    
+    text-align: center;
+
+}
+.third{
+    margin-top: 20px;
+    margin-left: 40px;
+    width: 320px;
+    height: 80px;
+    display: flex;
+    border-radius: 10px;
+    background-color:hsl(225, 100%, 98%)
+
+}
+.footer{
+    margin-top: 50px;
+    text-align: center;
+}
+.anual{
+    position: relative;
+    font-weight: 700;
+    margin-top: 15px;
+    margin-left: 20px;
+    color: hsl(223, 47%, 23%);
+}
+.price{
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 80px;
+    color:  hsl(224, 23%, 55%);
+   
+}
+.change{
+    margin-left: 80px;
+    margin-top: 25px;
+    text-decoration: underline;
+    font-size: 15px;
+    font-weight: 550;
+    color:hsl(245, 75%, 52%);
+    cursor: pointer;
+    transition:inherit;
+}
+.icon{
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 40px;
+    height:40px;
+}
+h2{
+    color: hsl(223, 47%, 23%);
+    margin-top: 40px;
+    font-weight: 1000;
+    font-family: 'Red Hat Display', sans-serif;
+}
+.button{
+    position: relative;
+    bottom: 20px;
+    border: none;
+    outline: none;
+    width: 325px;
+    height: 45px;
+    color: white;
+    font-size: 15px;
+    border-radius: 10px;
+    font-family: 'Red Hat Display', sans-serif;
+    background-color: hsl(245, 75%, 52%);
+    box-shadow: 0px 10px 10px 0.2px hsl(225, 100%, 94%);
+    cursor: pointer;
+    transition: none;
+}
+.cancel{
+    margin-top: 15px;
+    cursor: pointer;
+    color:  hsl(224, 23%, 55%);
+}
+.change:hover{
+    text-decoration: none;
+    color:hsl(224, 23%, 55%)
+    
+}
+button:hover{
+    background-color: hsl(224, 23%, 55%)
+}
+.cancel:hover{
+    color: hsl(223, 47%, 23%);
+    font-weight: 550;
+}

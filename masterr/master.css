@@ -1,0 +1,124 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: hsl(229, 57%, 11%);
+    background-image: url(master.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: bottom -80px right 0px;
+
+
+}
+main{
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh
+
+    
+}
+.div1{
+    display: flex;
+    margin-right: 30px;
+    width: 350px;
+    height: 220px;
+    background-color:hsl(228, 56%, 26%) ;
+    border-radius: 10px 110px 10px 10px;
+}
+.div2{
+    margin-top: 68px;
+    width: 650px;
+    height: 150px;
+    background-color:hsl(228, 56%, 26%) ;
+    border-radius: 10px;
+}
+.txt{
+    position: relative;
+    top: 35px;;
+    left: 35px;
+    color: hsl(229, 7%, 55%);
+}
+.range{
+    position: relative;
+    top: 45px;
+    left: 35px;
+    width: 560px;
+    height: 40px;
+}
+.gb1{
+    position: relative;
+    right: 529px;
+    top: 51px;
+    color: hsl(243, 100%, 93%);
+}
+.gb2{
+    position: relative;
+    margin-left: 535px;
+    top: 33px;
+    color: hsl(243, 100%, 93%);
+}
+.img1{
+    z-index: 1;
+    position: relative;
+    right: 90px;
+    top: 130px;
+    width: 20px;
+    height: 20px;
+    background-color:hsl(229, 57%, 11%) ;
+    padding: 15px;
+    border-radius: 8px;
+}
+.img2{
+    z-index: 1;
+    position: relative;
+    right: 82px;
+    top: 130px;
+    width: 20px;
+    height: 20px;
+    background-color:hsl(229, 57%, 11%) ;
+    padding: 15px;
+    border-radius: 8px;
+}
+.img3{
+    z-index: 1;
+    position: relative;
+    right: 72px;
+    top: 130px;
+    width: 20px;
+    height: 20px;
+    background-color:hsl(229, 57%, 11%) ;
+    padding: 15px;
+    border-radius: 8px;
+}
+.img4{
+    position: relative;
+    z-index: 1;
+    width: 120px;
+    height: 40px;
+    margin-top: 55px;
+    left: 40px;
+}
+
+
+.div3{
+    position: absolute;
+    width: 180px;
+    height: 100px;
+    margin-left: 780px;
+    margin-bottom: 70px;
+    background-color: aliceblue;
+    border-radius: 10px 10px 10px 10px;
+}
+h2{ 
+
+    margin-top: 35px;
+    margin-left: 30px;
+    display: inline-block
+}
+p{
+    display: inline-block;
+    color: hsl(229, 7%, 55%);
+}
